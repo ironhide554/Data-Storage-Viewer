@@ -6,6 +6,7 @@ html{
 }
 
 
+
 *{
     margin: 0;
     padding: 0;
@@ -23,7 +24,7 @@ body{
     background: url(Images/bg-desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom -750px left 0px;
+    background-position:top 380px left 0px;
     background-color: var(--very-dark-blue);
     display: flex;
     flex-direction: row;
@@ -108,7 +109,54 @@ button :hover{
     margin: 12px 0;
 }
 
- 
+.range-indicator{
+    background-color: rgb(225, 187, 34);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 16px;
+    margin: 2px;
+    width: 80%;
+}
+    
+.range-point{
+    background-color: var(--pale-blue);
+    border-radius: 20px;
+    height: 14px;
+    width: 14px;
+    margin: 1px;
+}
+
+.details{
+    align-items: center;
+    background: var(--pale-blue);
+    border-radius: 20px;
+    color: var(--very-dark-blue);
+    display: flex;
+    gap: 4px;
+    justify-content: flex-end;
+    padding: 18px;
+    position: relative;
+    max-width: 115px;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid var(--pale-blue);
+    border-top: 10px solid var(--pale-blue);
+    position: absolute;
+    left: 1030px; 
+    top: 230px;
+    
+
+}
+
+
+
+.details span{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
 
 
 
