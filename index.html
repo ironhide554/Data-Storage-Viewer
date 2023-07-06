@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Fylo Data Storage Component</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="container">
         <div class="logo">
@@ -13,14 +15,31 @@
                 <img src="Images/logo.svg" alt="Logo">
             </span>
             <div class="icons">
-                <img src="Images/icon-document.svg" alt="Doc" class="doc">
-                <img src="Images/icon-folder.svg" alt="Folder" class="folder">
-                <img src="Images/icon-upload.svg" alt="Upload" class="upload">
+                <button><img src="Images/icon-document.svg" alt="Doc" class="doc"></button>
+                <button><img src="Images/icon-folder.svg" alt="Folder" class="folder"></button>
+                <button><img src="Images/icon-upload.svg" alt="Upload" class="upload"></button>
+
             </div>
         </div>
-        <div class="storage"></div>
     </div>
-    
-    
+    <div class="storage">
+        <div class="details">
+            <span>185</span> GB left
+        </div>
+        <section class="details-container">
+            <p>You've used <b>815 GB</b>of your storage</p>
+            <div class="range">
+                <div class="range-indicator">
+                    <div class="range-point"></div>
+                </div>
+            </div>
+            <div class="details-range">
+                <span>0 GB</span>
+                <span>1000 GB</span>
+            </div>
+        </section>
+    </div>
+
 </body>
+
 </html>
